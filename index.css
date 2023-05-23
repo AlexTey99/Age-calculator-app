@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 86%);
+    font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+    background: white;
+    padding: 40px;
+    width: 520px;
+    border-radius: 20px 20px 100px 20px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.day {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: hsl(0, 1%, 44%);
+}
+
+.month {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: hsl(0, 1%, 44%);
+}
+
+.year {
+    font-size: 12px;
+    margin-bottom: 2px;
+    color: hsl(0, 1%, 44%);
+}
+
+input {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px hsl(0, 0%, 86%) solid;
+}
+
+.error {
+    display: none;
+    margin-top: 2px;
+    font-size: 10px;
+    color: red;
+}
+
+.error2 {
+    display: none;
+    margin-top: 2px;
+    font-size: 10px;
+    color: red;
+}
+
+input:hover {
+    cursor: pointer;
+    border-color: hsl(259, 100%, 65%);
+}
+
+.texterrorday {
+    display: none;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+.textErrorMonth {
+    display: none;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+.textErrorYear {
+    display: none;
+    margin-bottom: 2px;
+    font-size: 10px;
+}
+
+hr {
+    margin-top: 30px;
+    width: 100%;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.line {
+    display: flex;
+}
+
+button {
+    background: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: -30px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background: black;
+}
+
+img {
+    width: 30px;
+}
+
+.first {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.second {
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.third {
+    display: flex;
+}
+
+.number-years {
+    font-size: 70px;
+    margin: 5px;
+    color: hsl(259, 100%, 65%);
+}
+
+.number-months {
+    font-size: 70px;
+    margin: 5px;
+    color: hsl(259, 100%, 65%);
+}
+
+.number-days {
+    font-size: 70px;
+    margin: 5px;
+    color: hsl(259, 100%, 65%);
+}
+
+h1 {
+    font-size: 70px;
+}
